@@ -9,6 +9,9 @@
     <script src="https://kit.fontawesome.com/175c7125e4.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body id="body-main">
     <div class="container">
@@ -18,20 +21,20 @@
             <div class="container mt-2">
                 <div class="row">
                     <div class="col-auto left-nav">
-                        <button class="btn btn-primary" id="new-array" onclick="createArray()">New Array</button>
+                        <button class="btn btn-primary bolded-text" id="new-array" onclick="createArray()">New Array</button>
                     </div>
 
                     <div class="col-4 mid-nav">
                         <div class="row">
                             <div class="col-auto">
-                                <p>Array Size</p>
+                                <p class = "bolded-text">Array Size</p>
                                 <span> 
                                     <input id="arr_size" type="range" min=10 max=100 step=1 value=100 oninput="getArrSize()" disabled>
                                 </span>
                             </div>
 
                             <div class="col-auto">
-                                <p>Speed</p>
+                                <p class = "bolded-text">Speed</p>
                                 <span> 
                                     <input id="exe_speed" type="range" min=10 max=100 step=10 value=100 oninput="getSpeed()">
                                 </span>
