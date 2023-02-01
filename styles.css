@@ -16,6 +16,7 @@ body {
 } 
 
 #title{
+  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
 
@@ -73,4 +74,8 @@ body {
   min-width: 6px;
   width: 100%;
   background-color: royalblue;
+}
+
+.bolded-text{
+  font-weight: bold;
 }
