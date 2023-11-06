@@ -1,6 +1,6 @@
 # Sorting-Algorithm-Visualiser
-Created a Visualizer that steps through the characteristics of each individual sorting algorithm.
-Sorting algorithm included:
+Created a Visualizer that steps through the characteristics of each individual sorting algorithm. \
+Sorting algorithm includes:
 1) Bubble Sort
 2) Selection Sort
 3) Insertion Sort
