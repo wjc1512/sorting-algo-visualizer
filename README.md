@@ -1,3 +1,10 @@
 # Sorting-Algorithm-Visualiser
-A simple sorting algorithm visualizer that helps with the understanding of characteristics in each sorting algorithm!
+Created a Visualizer that steps through the characteristics of each individual sorting algorithm.
+Sorting algorithm included:
+1) Bubble Sort
+2) Selection Sort
+3) Insertion Sort
+4) Merge Sort
+5) Quick Sort
+
 
