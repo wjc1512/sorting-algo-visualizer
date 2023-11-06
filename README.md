@@ -1,4 +1,4 @@
-# Sorting-Algorithm-Visualiser
+# sorting-algo-visualizer
 Created a Visualizer that steps through the characteristics of each individual sorting algorithm. \
 Sorting algorithm includes:
 1) Bubble Sort
